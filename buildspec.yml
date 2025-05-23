@@ -4,8 +4,8 @@ phases:
   build:
     commands:
       - echo "🌍 HTML wird nach S3 hochgeladen"
-      - aws s3 cp website/index.html s3://face-login-webseite1/index.html --acl public-read
+      - aws s3 cp we/index.html s3://face-login-webseite1/index.html --acl public-read
 
 artifacts:
   files:
-    - website/index.html
+    - we/index.html
